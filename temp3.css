@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Gill Sans MT";
+}
+
+body {
+  margin: 0;
+  background-color:rgb(20, 20, 20);
+}
+
+/* div{
+    display: flex;
+} */
+
+
+.Header1{
+    background: rgb(8,8,8);
+    height: 30px;
+    display: flex;
+   /* justify-content: center;*/
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.header1{
+    color: #990033 ;
+    justify-self: start;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.header1-menu{
+    display:grid;
+    grid-template-columns: repeat(7,auto);
+    grid-gap: 9px;
+    list-style: none;
+    text-align: center;
+    width: 74vw;
+    justify-content: end;
+    margin-right: 0;
+}
+
+.head1-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+
+}
+
+.head1-link:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.content{
+     
+    background: url("https://4kwallpapers.com/images/wallpapers/new-york-city-cityscape-night-city-lights-reflections-5k-2560x1440-435.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    color: white;
+}
+.contentnav{
+   
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.header2{
+    color: azure;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logo1{
+    height: 40px;
+    width:100px;
+}
+.header2-menu{
+    display:grid;
+    grid-template-columns: repeat(11,auto);
+    grid-gap: 50px;
+    list-style: none;
+    text-align: center;
+    width:85vw;
+    justify-content: end;
+    margin-right: 1rem;
+    
+}
+
+.head2-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0;
+
+}
+
+.head2-link:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.head3-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    border:1.5px solid white;
+    border-radius: 2px;
+}
+
+.head3-link:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.head4-link{
+    background: linear-gradient( rgb(172, 4, 80), rgb(231, 25, 25));
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 28px;
+    box-shadow : 1px black;
+    border-radius: 1.5px;
+   
+   
+}
+
+.head4-link:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+.fa-bars{
+    height: 30px;
+    width: 30px;
+   
+    
+}
+.fa-search{
+    height: 30px;
+    width: 30px; 
+}
+.logo2{
+    margin-top: 28vh;
+    margin-left: 3vw;
+    margin-right: 4vw;
+    
+}
+
+
+.main{
+    display: flex;
+}
+.form{
+    height:100vh;
+    width: 72vw;
+    float: right;
+    background: rgba(5, 5,5, 0.9);
+    
+    justify-content: center;
+    
+    /* padding-right: 50px; */
+    margin-top: 10px;
+
+}
+.form h1{
+    margin-top: 60px ;
+    margin-left: 80px ;
+    margin-bottom: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Arial";
+    
+}
+
+
+
+hr{
+    background: white;
+    width:85%;
+    height: 9px;
+}
+
+.cont1 i{
+
+    color:rgb(236, 19, 56);
+    text-decoration: none;
+    padding:16px;
+    padding-left: 17px;
+    border:2px solid white;
+    border-radius: 31px;
+}
+.fa-landmark,.fa-map-marked-alt,.fa-calendar-alt{  
+    height: 62px;
+    width:62px;
+}
+
+.table{
+    justify-content: center;
+    margin-left: 80px ;
+
+}
+
+table{
+    width: 92%;
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+}
+
+.ip1{
+    
+    height: 40px;
+    width: 100%;
+}
+
+.ip2{
+    height: 40px;
+    width: 95%;
+}
+
+.ip3{
+    height: 40px;
+    width: 100%;
+}
+.send-btn{
+    height: 40px;
+    width: 99%;
+    color: white;
+  background: #f30152;
+  display: inline-block;
+  border: 1px solid #f30152;
+  color: white;
+  border-radius: 2px;
+}
+
+.send-btn:hover{
+  color: #fff6f6;
+  background: #6d76f7;
+  border: 1px solid #6d76f7;
+  transition: all 0.2s ease-out;
+}
+.content2{
+    height: 80vh;
+    background: rgb(32,32,32);
+    color: white;
+}
+
+
+.numbers{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 19px;
+    list-style: none;
+    text-align: left;
+    width:100%;
+    justify-content: center;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+.content3{
+    height: 93vh;
+    background: rgb(20, 20, 20);
+    color: white;
+}
+
+.closer{
+    height: 45vh;
+    width: 95%;
+    margin-top: 7vh;
+    border: 3px solid white;
+    background: url("https://images.pexels.com/photos/316902/pexels-photo-316902.jpeg?cs=srgb&dl=pexels-life-of-pix-316902.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+    margin-left: 2% ;
+    text-align: center;
+}
+
+.foot1{
+    justify-content: center;
+    text-align: center;
+}
+
+.foot-logo{
+    height: 65px;
+    width: 100px;
+}
+.hr{
+    background: rgb(255, 32, 106);
+    width:17%;
+    height: 6px;
+    border: 0px;
+    
+}
+
+.hr3{
+    background: rgb(255, 255, 255);
+    width:4%;
+    height: 4px;
+    border: 0px;
+}
+
+.partner-logos{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 25px;
+    list-style: none;
+    text-align: center;
+    
+    justify-content: center;
+    
+}
+
+.endnav{
+    background: rgb(8,8,8);
+    height: 30px;
+    display: flex;
+   /* justify-content: center;*/
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top:15vh;
+}
+
+.end1{
+    color: #ffffff ;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.end1-menu{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 18px;
+    list-style: none;
+    text-align: center;
+    width: 75vw;
+    justify-content: end;
+    margin-right: 1px;
+}
+
+.end1-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0rem;
+
+}
+
+.end1-link:hover{
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+span{
+    color: #990033;
+}
+
+.signup{
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 25%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.supbtn{
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 15%;
+  background: #f30152;
+  display: inline-block;
+  border: 1px solid #f30152;
+  color: white;
+  border-radius: 2px;
+}
+.supbtn:hover{
+    color: #fff6f6;
+    background: #6d76f7;
+    border: 1px solid #6d76f7;
+    transition: all 0.2s ease-out;
+  }
